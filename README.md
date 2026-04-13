@@ -21,7 +21,7 @@ To open Just double click the .py file, OR you can open cmd and drag it into the
 To CHANGE the color of the ASCII art (idk why you'd want to do that but wtv) right ABOVE the ascii it should say "{Fore.CYAN}{Style.DIM}" you can change the CYAN to "Fore.RED, Fore.GREEN, Fore.BLUE, Fore.CYAN, Fore.MAGENTA, Fore.YELLOW, and Fore.WHITE".
 
 
-The styles that you can put include Style.BRIGHT, and Style.DIM. If you dont wont either you can just delete it from the line
+The styles that you can put include Style.BRIGHT, and Style.DIM. If you dont want either you can just delete it from the line
 
 Thats about it as how to use it.
 
