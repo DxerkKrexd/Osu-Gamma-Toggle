@@ -1,8 +1,16 @@
 # Osu-Gamma-Toggle
 A tool to toggle gamma on windows so you don't have to tab in and out
+
+
 You NEED python 3.10 or higher.
+
+
 To Toggle Its F8 to increse/decrease The value its +,-
+
+
 You can CHANGE the keybind using Edit in IDLE, Found by right clicking the .py file
+
+
 <img width="801" height="385" alt="image" src="https://github.com/user-attachments/assets/1923b5e0-445d-4ceb-9c39-8b9e2fc4ecd3" />
 
 
