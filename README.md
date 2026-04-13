@@ -5,7 +5,7 @@ A tool to toggle gamma on windows so you don't have to tab in and out
 You NEED python 3.10 or higher.
 
 
-To Toggle Its F8, to increse/decrease the value its +,-
+To Toggle Its F8, to increase/decrease the value its +,-
 
 
 You can CHANGE the keybind using Edit in IDLE, Found by right clicking the .py file
@@ -24,3 +24,11 @@ To CHANGE the color of the ASCII art (idk why you'd want to do that but wtv) rig
 The styles that you can put include Style.BRIGHT, and Style.DIM. If you dont wont either you can just delete it from the line
 
 Thats about it as how to use it.
+
+
+This tool really isnt allat just i was bored and i play on stretch res so tabbing in and out is just annoying.
+
+Discord is: @68zt
+
+
+Discord Server: https://discord.gg/H2J3xRRqpG
