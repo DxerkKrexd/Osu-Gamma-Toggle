@@ -1,0 +1,3 @@
+pip install keyboard
+pip install colorama
+pip install pynput
