@@ -11,8 +11,16 @@ To Toggle Its F8, to increase/decrease the value its +,-
 
 You can CHANGE the keybind using Edit in IDLE, Found by right clicking the .py file
 
+On the most RECENT version there IS no ui. It runs in the tray. So just open the tray and right click it to close it. If you WANT the ui just run the ,py file (either one i think is ok)
+
+
+
+
 
 <img width="801" height="385" alt="image" src="https://github.com/user-attachments/assets/1923b5e0-445d-4ceb-9c39-8b9e2fc4ecd3" />
+
+
+
 
 
 To open Just double click the .py file, OR you can open cmd and drag it into there and exec it
