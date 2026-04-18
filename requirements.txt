@@ -1,3 +1,1 @@
-pip install keyboard
-pip install colorama
-pip install pynput
+pip install keyboard pynput colorama pillow pystray
