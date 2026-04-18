@@ -8,8 +8,6 @@ from colorama import Fore, Style, init
 
 init(autoreset=True)
 
-# ---------------- STATE ---------------- #
-
 console_visible = True
 tray_icon = None
 
@@ -28,7 +26,6 @@ TOGGLE_KEY = "F8"
 gamma_enabled = False
 
 
-# ---------------- TRAY ICON ---------------- #
 
 def create_icon():
     try:
@@ -69,7 +66,6 @@ def exit_app(icon=None, item=None):
     os._exit(0)
 
 
-# ---------------- GAMMA ---------------- #
 
 def set_gamma(gamma):
     ramp = ((ctypes.c_ushort * 256) * 3)()
@@ -85,7 +81,6 @@ def set_gamma(gamma):
     gdi32.SetDeviceGammaRamp(hdc, ramp)
 
 
-# ---------------- UI ---------------- #
 
 def draw_ui():
     os.system("cls")
@@ -120,7 +115,6 @@ def draw_ui():
         print(Fore.RED + "STATUS: [OFF] Normal Gamma")
 
 
-# ---------------- CONTROLS ---------------- #
 
 def toggle_gamma():
     global gamma_enabled
@@ -152,7 +146,6 @@ def decrease_gamma():
     draw_ui()
 
 
-# ---------------- KEYBOARD ---------------- #
 
 def keyboard_loop():
     keyboard.add_hotkey(TOGGLE_KEY, toggle_gamma)
@@ -161,7 +154,6 @@ def keyboard_loop():
     keyboard.wait()
 
 
-# ---------------- TRAY ---------------- #
 
 def setup_tray():
     global tray_icon
@@ -179,7 +171,6 @@ def setup_tray():
     tray_icon.run()
 
 
-# ---------------- START ---------------- #
 
 if __name__ == "__main__":
     try:
